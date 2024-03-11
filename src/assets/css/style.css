@@ -116,4 +116,15 @@ img {
   color: var(--off-black);
 }
 
+footer {
+  padding-top: 3rem;
+}
+footer .attribution a {
+  color: var(--green);
+  transition: color 0.3s;
+}
+footer .attribution a:hover {
+  color: var(--white);
+}
+
 /*# sourceMappingURL=style.css.map */

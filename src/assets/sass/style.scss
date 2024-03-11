@@ -62,6 +62,18 @@
     }
 }
 
-// footer {
-//     padding-top: 3rem;
-// }
+footer {
+    padding-top: 3rem;
+
+    .attribution {
+
+        a {
+            color: var(--green);
+            transition: color .3s;
+
+            &:hover {
+                color: var(--white);
+            }
+        }
+    }
+}
